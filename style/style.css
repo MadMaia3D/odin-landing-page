@@ -55,6 +55,9 @@ a {
     border-radius: 0.5rem;
     font-weight: var(--weight-heavy);
 }
+p {
+    font-size: var(--size-small);
+}
 
 /* HEADER */
 .header {
@@ -72,7 +75,7 @@ a {
 }
 .header-nav {
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
     font-size: var(--size-small);
     font-weight: var(--weight-light);
 }
@@ -92,10 +95,9 @@ a {
     flex-direction: column;
     align-items: flex-start;
     font-weight: var(--weight-light);
-    font-size: var(--size-small);
 }
 .hero-left p {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 .hero-right {
     flex: 0 0 50%;
@@ -120,7 +122,6 @@ a {
 .cards {
     display: flex;
     gap: 3rem;
-    font-size: var(--size-small);
     color: hsl(215, 28%, 37%);
 }
 .card-image {
@@ -164,10 +165,17 @@ a {
 .sign-up-box .left p {
     margin-top: 0.25rem;
     font-weight: var(--weight-light);
-    letter-spacing: 1px;
 }
 .sign-up-box .right {
     outline: 2px solid var(--color-white);
     letter-spacing: 1px;
 }
 /* FOOTER */
+.footer {
+    background: var(--color-grey-dark);
+    color: var(--color-grey-light);
+    padding: 2.5rem 0;
+    text-transform: capitalize;
+    text-align: center;
+    /* letter-spacing: 1px; */
+}
