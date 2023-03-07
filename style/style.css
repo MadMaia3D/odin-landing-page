@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap");
 
 * {
     margin: 0;
@@ -21,6 +21,7 @@
     --size-large: 3rem;
     --weight-light: 300;
     --weight-regular: 400;
+    --weight-black: 700;
     --weight-heavy: 900;
 }
 
@@ -120,11 +121,12 @@ a {
     display: flex;
     gap: 3rem;
     font-size: var(--size-small);
+    color: hsl(215, 28%, 37%);
 }
 .card-image {
     border: 0.25rem solid var(--color-blue);
     width: 100%;
-    padding-bottom: 90%;
+    padding-bottom: 95%;
     border-radius: 1rem;
     margin-bottom: 0.5rem;
 }
@@ -136,7 +138,7 @@ a {
     padding-bottom: 6rem;
 }
 .quote-section .centered-narrow {
-    padding: 0 1rem;
+    padding-left: 2rem;
 }
 .quote-text {
     font-size: var(--size-big);
@@ -145,7 +147,27 @@ a {
 }
 .quote-author {
     text-align: right;
+    margin-right: 2rem;
 }
 /* SIGN UP SECTION */
-
+.sign-up-box {
+    margin-top: 7rem;
+    margin-bottom: 6rem;
+    background: var(--color-blue);
+    color: var(--color-white);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 7.5rem;
+}
+.sign-up-box .left p {
+    margin-top: 0.25rem;
+    font-weight: var(--weight-light);
+    letter-spacing: 1px;
+}
+.sign-up-box .right {
+    outline: 2px solid var(--color-white);
+    letter-spacing: 1px;
+}
 /* FOOTER */
